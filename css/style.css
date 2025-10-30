@@ -1,0 +1,330 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f0;
+    color: #333;
+}
+.menu{
+    font-family: Dancing Script    ;
+    font-size: 1.5rem;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    font-size: 29px;
+    font-weight: bold;
+    color: #ff4da6;
+    white-space: nowrap;
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+.navbar .logo .logo-icon {
+    width: 30px; 
+    height: auto; 
+}
+.logo{
+    font-family: Dancing Script ;
+}
+
+.navbar .menu {
+    display: flex;
+    gap: 20px;
+    margin-left: 550px;
+}
+
+.navbar .menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 22px;
+}
+
+.navbar .menu a:hover {
+    color: #ff4da6;
+}
+
+.navbar .btn-inscreva {
+    padding: 10px 20px;
+    background-color: #ff4da6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.navbar .btn-inscreva:hover {
+    background-color: #e33d8d;
+}
+
+.hero {
+   font-family: Bebas Neue Static;
+    text-align: center;
+    padding: 100px 200px;
+    background: linear-gradient(to bottom, #ffe6f0, #fff);
+    font-size: 4rem; 
+}
+
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.hero h1 span {
+    color: #ff4da6;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.hero .btn-comecar {
+    padding: 15px 30px;
+    background-color: #ff4da6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero .btn-comecar:hover {
+    background-color: #e33d8d;
+}
+
+.modules {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+    /* font-family: Bebas Neue Static; */
+}
+.moduless {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+    font-family: Bebas Neue Static;
+}
+
+
+.modules h2 {
+    font-size: 36px;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+.modules p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.modules .module-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+.modules .module-item {
+    background-color: #ffe6f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.modules .module-item h3 {
+    font-size: 20px;
+    color: #ff4da6;
+    margin-bottom: 10px;
+}
+
+.modules .module-item p {
+    font-size: 16px;
+    color: #555;
+}
+.testimonials {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+.testimonials p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.testimonial-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.testimonial-item {
+    background-color: #ffe6f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.testimonial-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial-item p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.testimonial-item footer {
+    font-size: 14px;
+    color: #333;
+    font-style: italic;
+}
+.white-space{
+    font-family: Lobster Static;
+}
+
+.footer {
+    background-color: #a32263; 
+    color: #fff; 
+    text-align: center; 
+    padding: 45px 0; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+    font-size: 10px;
+}
+
+.footer p {
+    margin: 0; 
+    font-size: 14px; 
+}
+
+.navbar {
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+.navbar .menu a {
+    transition: color 0.3s ease;
+}
+
+.navbar .menu a:hover {
+    color: #ff4da6;
+    text-decoration: underline;
+}
+
+
+
+.courses {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.courses h2 {
+    font-size: 36px;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+.courses p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.course-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    gap: 20px;
+}
+
+.course-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.course-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.course-item h3 {
+    font-size: 20px;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.course-item p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.course-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #777;
+}
+
+.course-price {
+    font-size: 18px;
+    font-weight: bold;
+    color:  #e33d8d;
+    margin-bottom: 10px;
+}
+
+.btn-course {
+    background-color:  #e33d8d;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-course:hover {
+    background-color:  #e33d8d;
+}
+.circulo{
+    font-family: Dancing Script    ;
+    font-size: 39px;
+
+}

@@ -1,0 +1,138 @@
+/* ===== RESPONSIVIDADE COMPLETA ===== */
+
+/* Tablets grandes */
+/* @media (max-width: 1024px) {
+    .navbar .menu {
+        margin-left: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero {
+        padding: 80px 40px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+        line-height: 1.2;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .course-list, .modules .module-list, .testimonial-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+} */
+
+/* Celulares médios (768px ou menor) */
+/* @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 15px 10px;
+    }
+
+    .navbar .menu {
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px 0 0 0;
+    }
+
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .hero .btn-comecar {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .course-list, .modules .module-list, .testimonial-list {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .course-item img, .module-item img {
+        height: auto;
+    }
+} */
+
+/* Celulares pequenos (480px ou menor) */
+/* @media (max-width: 480px) {
+    .navbar {
+        padding: 10px 5px;
+    }
+
+    .navbar .logo {
+        font-size: 22px;
+    }
+
+    .navbar .menu a {
+        font-size: 16px;
+    }
+
+    .navbar .btn-inscreva {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .hero {
+        padding: 40px 10px;
+    }
+
+    .hero h1 {
+        font-size: 22px;
+        line-height: 1.1;
+    }
+
+    .hero p {
+        font-size: 13px;
+    }
+
+    .hero .btn-comecar {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .course-item h3, .module-item h3, .testimonial-item footer {
+        font-size: 16px;
+    }
+
+    .course-item p, .module-item p, .testimonial-item p {
+        font-size: 12px;
+    }
+
+    .course-item .course-price {
+        font-size: 16px;
+    }
+
+    .footer {
+        font-size: 12px;
+        padding: 30px 10px;
+    }
+} */
+
+/* Ajustes gerais para imagens e botões */
+/* .course-item img, .module-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-course, .btn-inscreva, .btn-comecar {
+    white-space: nowrap;
+    text-align: center;
+} */
